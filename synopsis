@@ -2,14 +2,33 @@ Synopsis
 The main idea is to build an application that can give information to the farmer from the beginning of growing a crop to selling it.
 Steps:
 1.	Sowing:
-  •	The farmer has to enter the crop which he wants to grow and the date when he wants to sow the seeds.
-    After this using weather data, soil pH and other parameters by making use of ml and the app will give back the date which is good near to the given date for sowing.
-  •	By considering parameters like weather condition, soil pH, etc. we take the old data and analyse it and predict the sowing date which gives more yield.
-  •	For weather condition, we will try to get the precise location of the land using RTK technology.
+•	The farmer has to enter the crop which he wants to grow and the date when he wants to sow the seeds.
+After this using weather data, soil pH and other parameters by making use of ml and the app will give back the date which is good near to the given date for sowing.
+•	By considering parameters like weather condition, soil pH, etc. we take the old data and analyse it and predict the sowing date which gives more yield.
+•	For weather condition, we will try to get the precise location of the land using RTK technology(geofencing).
+•	Once the crops are grown using this technology ,we will consider the data of amount of yield and improvement in yield and we will make our analysis model more efficient.
+
+Literature survey:
+  	Sowing dates is predicted using Micro-Satellite Data(Image Processing)
+    o	High spatial and temporal resolution micro satellite SkySat data is used to map sowing dates.
+  	Predicting using AI(precision agriculture)
+    o	AI sowing App was developed  by Microsoft Cortana Intelligence Suite including ML & power BI
+    o	Done without installing sensors or additional cost.
+    o	MAI(Moisture Adequacy Index) is used to determine the optimal sowing period.
 
 2.	Requirement of Fertilizer: Giving them details about the fertilizers.
-   •	As we already have the information of the crop and the date of sowing of the crop, we consider weather details and by keeping all other parameters we will send a message about the requirement of fertilizer and suitable to the phone.
+•	As we already have the information of the crop and the date of sowing of the crop, we consider weather details and by keeping all other parameters we will send a message about the requirement of fertilizer suitable to the phone.
+Literature survey:
+  	SVM and Random Forest like ML algorithms are used on agriculture  for  recommending suitable fertilizer for each individual crop.
+    o	Data sets like fertilizer data, location data and crop yield data.
+  	By using Big Data analytics ,suitable fertilizer is predicted.
+    o	Fertilizer suitable for the particular type of soil is predicted.
+
 3.	Solving problems related to crop diseases: If they find any diseases the farmers can click the photos of how it has harmed the crop and send it to get the expert suggestion from the app.
-   •	We will have a set of experts who will receive these queries and find a suitable solution for the problem and send it back to farmer in understandable manner.
+•	We will have a set of experts who will receive these queries and find a suitable solution for the problem and send it back to farmer in understandable manner.
+•	The images sent by farmers will be used to predict diseases either by an expert or an image processing model can be designed which can even send back the farmers the measures need to be  taken.
+Literature survey:
+  	By using unused TV spectrum to extend Wi-Fi connectivity over traditionally unconnected farmland and backend is handled from sensors and drones. Images processing is used to detect the diseases.
+  	By using high precision images from satellites , prevention of pest attacks and other diseases is done using the sowing and other related info abt the crop.
 4.	Selling: Once the crops are ready to sell, then the farmer can post the photos of the crop and we connect them directly to the customers who are ready to buy that particular crop at the market price.
-   •	We will have different section in the app, where the buyer is allowed to login and can find the set of products which are ready to buy and if buyer is interested then he/she can directly contact the seller.
+•	We will have different section in the app, where the buyer is allowed to login and can find the set of products which are ready to buy and if buyer is interested then he/she can directly contact the seller.
