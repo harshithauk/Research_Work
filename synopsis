@@ -30,5 +30,20 @@ Literature survey:
 Literature survey:
   	By using unused TV spectrum to extend Wi-Fi connectivity over traditionally unconnected farmland and backend is handled from sensors and drones. Images processing is used to detect the diseases.
   	By using high precision images from satellites , prevention of pest attacks and other diseases is done using the sowing and other related info abt the crop.
+
 4.	Selling: Once the crops are ready to sell, then the farmer can post the photos of the crop and we connect them directly to the customers who are ready to buy that particular crop at the market price.
 •	We will have different section in the app, where the buyer is allowed to login and can find the set of products which are ready to buy and if buyer is interested then he/she can directly contact the seller.
+
+5. Farmer to farmer helper : We can work on developing special conversation between the farmers. We can create a platform where a farmer can post his/her problems so that other farmer could help them in solving those problems. While irrigation they 
+need many helping hands so we create a platform to converse within them.
+Literature survey: Amazon Web services created a platform calld Wefarm which is the largest farmer to farmer digital network.They use sms system to create communication between farmers
+They are using Machine learning to achieve this.
+  
+ 6.Farming equipment quide and besr dealers list : Machinery equipments is expensive to own and operate. Farmers need to be aware of the costs of owning and operating a particular piece of equipment.
+ So we can guide them to choose the best and the required one for their use by taking information from marketing guides
+ We can use big data and data analytics to achieve this.
+ 
+ 7. Selling price suggestor based on market analysis : We can suggest the price for their product based on analysis using Machine learning regression for the benifit of farmers.
+ The company has developed a flea market application 'Maercari' in Japan and US which automatically suggests the right product prices to sellers on its app.
+  
+  
