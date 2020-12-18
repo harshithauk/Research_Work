@@ -1,0 +1,13 @@
+The main aim of this project is to find how effectively internet connection can established in remote areas by combining technologies like TVWS and PPE_RTK.
+
+1)We use TVWS to make the internet available in the remote areas like villages and also to placed where the network is very slow.As this technology helps to get the internet to the very far remote places and it can easily pass through many barriers and evn the internet can be made available smoothly behind a building or a tree.
+
+2)  Here we would like to make use of both the Technologies and PPE_RTK is used for finding exact locations which needs internet for the communication to get the result.Hence this would help us increase the efficiency of the finding location.
+Mass-market navigation tools such as Google maps have become widely adopted around the world; 
+however, often these have issues with providing an accurate initial user location. Multiple  
+methodologies are being developed to resolve this issue, with Google focusing on the use of machine  
+learning and scene recognition. This solution faces many issues such as the visual  
+environments changing throughout the year. Instead it is envisaged that PPP-RTK could be  
+implemented to provide the high-accuracy initial location, enhancing the user experience.
+
+3) Once we can find more accurate locations ,then we can apply it to several use cases , which can be carried out after the main experiment.
